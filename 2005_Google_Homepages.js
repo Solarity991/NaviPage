@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         2005 Google - Homepages
+// @name         NaviPage - 2005 Google - Homepages
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  2005-era reskin for Google homepages
