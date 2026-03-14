@@ -12,6 +12,7 @@
 // @match        *://www.google.com/nwshp*
 // @match        *://www.google.com/news*
 // @match        *://www.google.com/frghp*
+// @match        *://www.google.com/froogle*
 // @match        *://froogle.google.com/*
 // @match        *://www.google.com/shopping*
 // @match        *://local.google.com/*
@@ -40,7 +41,7 @@
         runNewsHomepage();
     } else if (host === 'images.google.com' || path.indexOf('/imghp') === 0) {
         runImagesHomepage();
-    } else if (host === 'froogle.google.com' || path.indexOf('/frghp') === 0 || path.indexOf('/shopping') === 0) {
+    } else if (host === 'froogle.google.com' || path.indexOf('/frghp') === 0 || path.indexOf('/froogle') === 0 || path.indexOf('/shopping') === 0) {
         runFroogleHomepage();
     } else if (host === 'local.google.com' || path.indexOf('/lochp') === 0 || path === '/maps' || path.indexOf('/maps?') === 0) {
         runLocalHomepage();
