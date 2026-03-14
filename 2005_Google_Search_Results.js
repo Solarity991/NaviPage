@@ -146,7 +146,7 @@
                 "</style></head><body>" +
 
                 "<div id='topbar'>" +
-                "<img src='https://retrogoogle.neocities.org/2004/logo.gif' width='120' style='vertical-align:middle;'>" +
+                "<a href='https://www.google.com/'><img src='https://retrogoogle.neocities.org/2004/logo.gif' width='120' style='vertical-align:middle;' border='0'></a>" +
                 " <form style='display:inline;' action='/search' method='GET'>" +
                 "<input name='q' value='" + query.replace(/'/g,"&#39;") + "' size='40'>" +
                 "<input type='submit' value='Search'>" +
@@ -434,7 +434,7 @@
             <!-- TOP BAR -->
             <div id="topbar">
                 <div id="topbar-logo">
-                    <img src="https://retrogoogle.neocities.org/2004/logo.gif" width="80" alt="Google">
+                    <a href="https://www.google.com/"><img src="https://retrogoogle.neocities.org/2004/logo.gif" width="80" alt="Google" border="0"></a>
                     <span>Images</span>
                 </div>
                 <div id="topbar-right">
