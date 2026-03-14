@@ -19,8 +19,8 @@ NaviPage rewrites Google's current web interface in real time, restoring the vis
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) in your browser
 2. Install the following two scripts:
-   - `2005_Google_Homepages.js`
-   - `2005_Google_Search_Results.js`
+   - [NaviPage - 2005 Google - Homepages](https://greasyfork.org/en/scripts/569686-navipage-2005-google-homepages)
+   - [NaviPage - 2005 Google - Search Results](https://greasyfork.org/en/scripts/569687-navipage-2005-google-search-results)
 3. Navigate to any supported Google page
 
 ## Supported Pages
