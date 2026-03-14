@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         2005 Google - Search Results
+// @name         NaviPage - 2005 Google - Search Results
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  2005-era reskin for Google search results pages
