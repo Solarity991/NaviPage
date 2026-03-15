@@ -2,6 +2,8 @@
 
 A Tampermonkey userscript project that replaces modern Google pages with accurate recreations of their 2005-era layouts. Built and tested on Mypal browser running on Windows XP.
 
+<img src="https://retrogooglemobile.neocities.org/NaviPage/Google Homepage.webp" alt="Google Homepage">
+
 ## Overview
 
 NaviPage rewrites Google's current web interface in real time, restoring the visual design, layout, and typography of Google as it appeared in 2005. Every page is reconstructed from archived references and Wayback Machine snapshots to be as accurate as possible. This is not a theme - the pages are fully rebuilt from scratch on load.
@@ -25,19 +27,54 @@ NaviPage rewrites Google's current web interface in real time, restoring the vis
 
 ## Supported Pages
 
+### Google Search
+
+<img src="https://retrogooglemobile.neocities.org/NaviPage/Google Search Results.webp" alt="Google Search Results">
+
 | Page | URL |
 |------|-----|
 | Google Homepage | `google.com/` |
 | Google Search Results | `google.com/search` |
+| Google Advanced Search | `google.com/advanced_search` |
+
+### Google Images
+
+<img src="https://retrogooglemobile.neocities.org/NaviPage/Google Images Homepage.webp" alt="Google Images Homepage">
+<img src="https://retrogooglemobile.neocities.org/NaviPage/Google Images Search Results.webp" alt="Google Images Search Results">
+
+| Page | URL |
+|------|-----|
 | Google Images Homepage | `images.google.com` |
 | Google Images Search Results | `google.com/search?tbm=isch` |
+
+### Google News
+
+<img src="https://retrogooglemobile.neocities.org/NaviPage/Google News Homepage.webp" alt="Google News Homepage">
+<img src="https://retrogooglemobile.neocities.org/NaviPage/Google News Search Results.webp" alt="Google News Search Results">
+
+| Page | URL |
+|------|-----|
 | Google News Homepage | `news.google.com` |
 | Google News Search Results | `google.com/search?tbm=nws` |
+
+### Froogle
+
+<img src="https://retrogooglemobile.neocities.org/NaviPage/Google Froogle Homepage.webp" alt="Froogle Homepage">
+<img src="https://retrogooglemobile.neocities.org/NaviPage/Google Froogle Search Results.webp" alt="Froogle Search Results">
+
+| Page | URL |
+|------|-----|
 | Froogle Homepage | `froogle.google.com` |
 | Froogle Search Results | `google.com/search?tbm=shop` |
+
+### Google Local
+
+<img src="https://retrogooglemobile.neocities.org/NaviPage/Google Local Homepage.webp" alt="Google Local Homepage">
+
+| Page | URL |
+|------|-----|
 | Google Local Homepage | `local.google.com` / `google.com/maps` |
 | Google Local Search Results | `google.com/maps/search` |
-| Google Advanced Search | `google.com/advanced_search` |
 
 ## Compatibility
 
